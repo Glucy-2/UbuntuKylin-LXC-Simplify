@@ -5,6 +5,7 @@
 仅在 22.04 版本上测试
 
 ```shell
+cd /
 sudo rm -f /etc/update-motd.d/98-fsck-at-reboot
 echo | sudo tee etc/fstab
 sudo snap remove --purge firefox
